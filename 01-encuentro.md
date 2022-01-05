@@ -4,6 +4,14 @@
  * [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) ***v.6.1.0 o superior***
  * [Vue CLI](https://cli.vuejs.org/guide/prototyping.html) ***v4.5.12 o superior***
 
+# Repositorio de código
+https://github.com/dforce2055/vue-essentials
+Cada encuentro vamos a crear una rama nueva, para este primero creamos la rama 01
+```javascript:
+  To github.com:dforce2055/vue-essentials.git
+ * [new branch]      01 -> 01
+ ```
+
 # Configuración del entorno de trabajo
 ## Instalar NODE
 https://nodejs.org/es/download
@@ -96,6 +104,3 @@ https://bootstrap-vue.org/docs
   * https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
   * https://cli.vuejs.org/guide/prototyping.html
   * https://code.visualstudio.com/
-
-
-# Encuentro N°2 - 12-01-2021
