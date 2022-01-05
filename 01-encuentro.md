@@ -5,8 +5,8 @@
  * [Vue CLI](https://cli.vuejs.org/guide/prototyping.html) ***v4.5.12 o superior***
 
 # Repositorio de código
-https://github.com/dforce2055/vue-essentials
-Cada encuentro vamos a crear una rama nueva, para este primero creamos la rama 01
+https://github.com/dforce2055/vue-essentials \
+Para cada encuentro vamos a crear una rama nueva, para este primero creamos la rama 01
 ```javascript:
   To github.com:dforce2055/vue-essentials.git
  * [new branch]      01 -> 01
