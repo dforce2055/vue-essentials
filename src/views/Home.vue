@@ -1,18 +1,34 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <p>
+      Cantidad de clicks: {{ clicks }}
+    </p>
+    <button
+      @click="sumarClick"
+    >
+      Sumar
+    </button>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+  },
+  data: () => ({
+    titulo: 'Proband Vue',
+    logo: 'https://vuejs.org/images/logo.svg',
+    mostrar: false,
+    clicks: 0
+  }),
+  methods: {
+    sumarClick () {
+      this.clicks++
+    }
   }
 }
 </script>
+<style scoped>
+
+</style>
