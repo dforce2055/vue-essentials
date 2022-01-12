@@ -43,9 +43,11 @@ export default {
   },
   methods: {
     async fetchJobs () {
-      const response = await fetch('https://arbeitnow.com/api/job-board-api')
+      const response = await fetch('jobs.json')
+      // const response = await fetch('https://arbeitnow.com/api/job-board-api')
       const jobs = await response.json()
-      this.jobs = jobs.data
+      this.jobs = jobs
+      // this.jobs = jobs.data
       this.displayJobs = this.jobs.slice(0, this.perPage)
       this.rows = this.jobs.length
     },
