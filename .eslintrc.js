@@ -8,9 +8,9 @@ module.exports = {
     parser: 'babel-eslint'
   },
   extends: [
-    "plugin:vue/essential",
-    "eslint:recommended",
-    "plugin:vue/strongly-recommended"
+    'plugin:vue/essential',
+    'eslint:recommended',
+    'plugin:vue/strongly-recommended'
   ],
   plugins: [
   ],

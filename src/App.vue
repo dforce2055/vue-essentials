@@ -4,6 +4,9 @@
       <router-link to="/">
         Home
       </router-link> |
+      <router-link to="/jobs">
+        jobs
+      </router-link> |
       <router-link to="/about">
         About
       </router-link>
@@ -12,7 +15,8 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
+@import "~@/assets/scss/vendors/bootstrap-vue/index";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
