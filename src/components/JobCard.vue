@@ -77,8 +77,6 @@ export default {
     }
   },
   methods: {
-    goClick() {
-    },
   },
 };
 </script>
