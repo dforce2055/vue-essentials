@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "slug":"data-analyst-merkle-netherlands-245301",
     "company_name":"Merkle Netherlands",
     "title":"Data Analyst",
@@ -19,6 +20,7 @@
     "salary": "100k"
   },
   {
+    "id": 2,
     "slug":"full-time-full-stack-developer-medsr-procentec-467152",
     "company_name":"PROCENTEC",
     "title":"Full-time Full Stack Developer (Med/Sr)",
@@ -37,6 +39,7 @@
     "created_at":1641390767
   },
   {
+    "id": 3,
     "slug":"deputy-care-manager-home-instead-287456",
     "company_name":"Home Instead",
     "title":"Deputy Care Manager",
@@ -55,6 +58,7 @@
     "created_at":1641390767
   },
   {
+    "id": 4,
     "slug":"burgerme-e-bike-burger-kurier-servicefahrer-teilzeit-mwd-burgerme-91146",
     "company_name":"burgerme",
     "title":"burgerme E-Bike Burger-Kurier (Servicefahrer, Teilzeit, m/w/d)",
@@ -73,6 +77,7 @@
     "created_at":1641390767
   },
   {
+    "id": 5,
     "slug":"ingenieur-conception-safety-segula-technologies-488691",
     "company_name":"Segula Technologies",
     "title":"Ingénieur Conception Safety",
@@ -91,6 +96,7 @@
     "created_at":1641390767
   },
   {
+    "id": 6,
     "slug":"burgerme-e-bike-burger-kurier-servicefahrer-minijob-mwd-burgerme-77279",
     "company_name":"burgerme",
     "title":"burgerme E-Bike Burger-Kurier (Servicefahrer, Minijob, m/w/d)",
@@ -109,6 +115,7 @@
     "created_at":1641390767
   },
   {
+    "id": 7,
     "slug":"remote-privacy-impact-assessment-specialist-mariner-innovations-332651",
     "company_name":"Mariner Innovations",
     "title":"Privacy Impact Assessment Specialist",
@@ -127,6 +134,7 @@
     "created_at":1641390767
   },
   {
+    "id": 8,
     "slug":"burgerme-burger-crew-member-kuchenkraft-teilzeit-mwd-burgerme-88695",
     "company_name":"burgerme",
     "title":"burgerme Burger-Crew-Member (Küchenkraft, Teilzeit, m/w/d)",
@@ -145,6 +153,7 @@
     "created_at":1641390767
   },
   {
+    "id": 9,
     "slug":"burgerme-burger-crew-member-kuchenkraft-minijob-mwd-burgerme-272282",
     "company_name":"burgerme",
     "title":"burgerme Burger-Crew-Member (Küchenkraft, Minijob, m/w/d)",
@@ -163,6 +172,7 @@
     "created_at":1641390767
   },
   {
+    "id": 10,
     "slug":"sales-agent-albania-e-kosovo-auto1-group-64658",
     "company_name":"AUTO1 Group",
     "title":"Sales Agent_Albania e Kosovo",
@@ -181,6 +191,7 @@
     "created_at":1641390767
   },
   {
+    "id": 11,
     "slug":"partner-strategy-business-development-internship-deezer-406115",
     "company_name":"Deezer",
     "title":"Partner Strategy & Business Development (Internship)",
@@ -199,6 +210,7 @@
     "created_at":1641390767
   },
   {
+    "id": 12,
     "slug":"remote-inbound-enquiry-centre-advisors-capita-personal-independence-payment-pip-258774",
     "company_name":"Capita Personal Independence Payment (PIP)",
     "title":"Inbound Enquiry Centre Advisors",
@@ -217,6 +229,7 @@
     "created_at":1641390767
   },
   {
+    "id": 13,
     "slug":"menuisier-hf-brest-lapeyre-reseau-219846",
     "company_name":"Lapeyre Réseau",
     "title":"Menuisier H/F - Brest",
@@ -235,6 +248,7 @@
     "created_at":1641390767
   },
   {
+    "id": 14,
     "slug":"formatriceeur-en-risques-infectieux-eurofins-france-environnement-69175",
     "company_name":"Eurofins France Environnement",
     "title":"Formatrice(eur) en Risques Infectieux",
@@ -252,6 +266,7 @@
     "created_at":1641390767
   },
   {
+    "id": 15,
     "slug":"frontend-developer-intern-summer-2022-remote-uscanada-shopify-235598",
     "company_name":"Shopify",
     "title":"Frontend Developer Intern - Summer 2022 (Remote, US&Canada)",
@@ -270,6 +285,7 @@
     "created_at":1641390767
   },
   {
+    "id": 16,
     "slug":"cockpit-technologies-scrum-master-interior-monitoring-systems-bosch-group-119432",
     "company_name":"Bosch Group",
     "title":"Cockpit Technologies – Scrum Master – Interior Monitoring systems",
@@ -288,6 +304,7 @@
     "created_at":1641390767
   },
   {
+    "id": 17,
     "slug":"team-assistant-sales-dmw-auto1-group-122325",
     "company_name":"AUTO1 Group",
     "title":"Team Assistant Sales (d/m/w)",
@@ -306,6 +323,7 @@
     "created_at":1641390767
   },
   {
+    "id": 18,
     "slug":"mechanical-design-engineer-delta-electronics-129746",
     "company_name":"Delta Electronics",
     "title":"Mechanical Design engineer",
@@ -324,6 +342,7 @@
     "created_at":1641390767
   },
   {
+    "id": 19,
     "slug":"remote-studentska-praksastipendija-mono-software-135710",
     "company_name":"Mono Software",
     "title":"Studentska praksa/stipendija",
@@ -342,6 +361,7 @@
     "created_at":1641390767
   },
   {
+    "id": 20,
     "slug":"alt-executive-assistant-assistenz-der-geschaftsfuhrung-dmw-auto1-group-66038",
     "company_name":"AUTO1 Group",
     "title":"[ALT]  Executive Assistant - Assistenz der Geschäftsführung (d/m/w)",
@@ -360,6 +380,7 @@
     "created_at":1641390767
   },
   {
+    "id": 21,
     "slug":"remote-ingenieure-de-production-vosker-50329",
     "company_name":"Vosker",
     "title":"Ingénieur(e) de production",

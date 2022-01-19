@@ -6,9 +6,10 @@
           v-for="job in displayJobs"
           :key="job.id"
           :job="job"
+          @job-selected="onSelectedJob"
         />
       </b-row>
-      <b-row v-if="false">
+      <b-row>
         <b-col>
           <b-pagination
             v-model="currentPage"
@@ -32,26 +33,29 @@ export default {
     JobCard
   },
   data: () => ({
-    jobs: null,
+    jobs: [],
     displayJobs: [],
     currentPage: 1,
     rows: 1,
-    perPage: 4
+    perPage: 6
   }),
   mounted () {
     this.fetchJobs()
   },
   methods: {
     async fetchJobs () {
-      const response = await fetch('jobs.json')
+      const response = await fetch('https://arbeitnow.com/api/job-board-api')
       const jobs = await response.json()
-      this.jobs = jobs
+      this.jobs = jobs.data
       this.displayJobs = this.jobs.slice(0, this.perPage)
       this.rows = this.jobs.length
     },
     paginate (currentPage) {
       const start = (currentPage - 1) * this.perPage
       this.displayJobs = this.jobs.slice(start, start + this.perPage)
+    },
+    onSelectedJob (job) {
+      alert('Empleo seleccionado: ' + job.title)
     }
   }
 }

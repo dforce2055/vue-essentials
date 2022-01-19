@@ -20,6 +20,17 @@
     this.rows = this.jobs.length
   }
 ```
+
+## Implementar eventos
+```javascript:
+src/views/Jobs.vue
+  ...
+
+src/components/JobCard.vue
+  selectedJob () {
+    this.$emit('job-selected', this.job)
+  }
+```
 ## Importar Paginado en pagina de Empleos
 ``src/views/Jobs.vue``
 ```javascript:

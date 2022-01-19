@@ -20,7 +20,7 @@
         <b-button
           class="mt-auto"
           variant="primary"
-          @click="goClick"
+          @click="selectedJob"
         >
           Apply
         </b-button>
@@ -77,6 +77,9 @@ export default {
     }
   },
   methods: {
+    selectedJob () {
+      this.$emit('job-selected', this.job)
+    }
   },
 };
 </script>
